@@ -1,0 +1,31 @@
+
+/* Général */ 
+
+body {margin: 0; padding: 0; background-color: #EFEFEF; font-family: 'Lato', sans-serif}
+
+.italique {font-style: italic}
+a {text-decoration: none; color: #708090}
+
+
+/* Entête */ 
+#title {color: #56739A; font-size: 40px; font-weight: bold; text-align: center; line-height: 1.15}
+#matricule {color: #708090; font-size: small; text-align:center}
+
+
+/* Contenu */ 
+#main {display: flex;flex-direction: row; margin: 30px}
+
+#partie1, #partie2 {padding: 15px 25px; background-color:#F8F8FF}
+#partie1 {width: 40%; margin-right: 25px}
+#partie2 {width: 60%}
+
+#footer {color: #708090; text-align: right; font-size: smaller; padding-top: 30px; margin: 25px}
+
+h1{color: #56739A; font-size: x-large}
+
+p {font-size: medium; line-height: 1.5; text-align: justify; text-justify: inter-word; hyphens: auto}
+
+/* Image */ 
+
+img {padding-top: 25px}
+figcaption {color: #708090; text-align: right; padding: 10px; margin-bottom: 25px}
